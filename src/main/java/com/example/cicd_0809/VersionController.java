@@ -11,7 +11,7 @@ public class VersionController {
 
     @GetMapping
     public ResponseEntity<String> getVersion() {
-        System.out.println("aa");
+        System.out.println("aaaa");
         return ResponseEntity.ok("OKOK");
     }
 }
